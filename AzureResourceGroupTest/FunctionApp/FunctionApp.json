@@ -127,6 +127,9 @@
                 "ApplicationId": "[variables('applicationInsightsName')]",
                 "Request_Source": "IbizaWebAppExtensionCreate"
             }
-        }
+        },
+          "outputs": {
+    "success"
+  }
     ]
 }
